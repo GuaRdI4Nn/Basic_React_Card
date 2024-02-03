@@ -1,0 +1,129 @@
+body{
+  color:white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.box {
+  background-color:black;
+  color:white;
+  height:90vh;
+  width:40vh;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom:20px;
+  border-radius: 20px ;
+
+}
+
+.image{
+  height:250px;
+  background-image:url('./images/pp.jpg') ;
+  background-repeat:no-repeat ;
+  background-size: contain;
+  border-radius: 20px;
+}
+
+.intro h5{
+  font-size: 20px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.intro p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top:-32px;
+  font-size: 12px;
+  color:rgb(253, 155, 8);
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.intro button{
+  height:40px;
+  width:80%;
+  border:1px solid black;
+  border-radius:10px;
+}
+.intro button:hover{
+  cursor: pointer;
+  color:aliceblue;
+  background-color: rgb(74, 75, 74);
+  height:40px;
+  width:80%;
+  border:1px solid black;
+  border-radius:10px;
+}
+
+.intro span{
+  padding-left:10px;
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+  margin-left:40px;
+  margin-top:15px;
+  margin-right:40px;
+  font-size:15px;
+  text-align:left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.content p{
+  letter-spacing: 0.1px;
+  margin-top:0px;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* footer .fa{
+  height:40px;
+  width:40px;
+} */
+footer .fa {
+  padding:20px;
+  text-decoration: none;
+  color:white;
+  background-color: black;
+}
+footer .fa:hover{
+  border-radius: 50%;
+  transition-duration: 0.1s;
+  background-color: white;
+  color:black;
+
+}
+
